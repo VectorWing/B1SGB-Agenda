@@ -1,4 +1,4 @@
-package br.ifsp.edu.agenda;
+package br.ifsp.edu.agenda.data;
 
 import java.util.Vector;
 
@@ -107,5 +107,10 @@ public class ListaContatosModel extends AbstractTableModel {
            dataVector.size() - 1,
            dataVector.size() - 1);
     }
+	
+	public void addRow(Contato contato)
+	{
+		
+	}
 
 }

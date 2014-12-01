@@ -1,4 +1,4 @@
-package br.ifsp.edu.agenda;
+package br.ifsp.edu.agenda.data;
 
 public class Contato {
 	
@@ -10,7 +10,11 @@ public class Contato {
 	
 	public Contato()
 	{
-		
+		this.nome = "";
+		this.telefone1 = "";
+		this.telefone2 = "";
+		this.email = "";
+		this.endereco = "";
 	}
 	
 	public Contato(String nome, String telefone1, String telefone2, String email, String endereco)
